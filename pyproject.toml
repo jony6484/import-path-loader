@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "import-path-loader"
+version = "0.1.0"
+description = "Load module search paths from a .pth file."
+readme = "README.md"
+requires-python = ">=3.9"
+
+[tool.setuptools]
+packages = ["import_path_loader"]
